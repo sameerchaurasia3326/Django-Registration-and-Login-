@@ -1,0 +1,22 @@
+# Environment Variables
+# This file contains secret keys and passwords.
+# NEVER commit this to GitHub.
+.env
+
+# Database
+# The local SQLite database file should not be committed.
+db.sqlite3
+
+# Python
+# Ignore virtual environment folders, bytecode files, and other artifacts.
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+
+# IDE configuration files
+.vscode/
+.idea/
